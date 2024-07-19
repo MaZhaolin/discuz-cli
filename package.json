@@ -1,0 +1,20 @@
+{
+  "name": "dz-cli",
+  "version": "1.0.0",
+  "author": "MaZhaoLin",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.0.3",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^10.0.2",
+    "ora": "^8.0.1",
+    "util": "^0.12.5"
+  },
+  "type": "module",
+  "bin": {
+    "dz-cli": "bin/cli.mjs"
+  },
+  "license": "ISC"
+}

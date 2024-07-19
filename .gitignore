@@ -1,0 +1,16 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build output
+dist/
+build/
+out/
+*.js.map
+
+# Ignore local development files
+*.tsbuildinfo
+.idea/
+.vscode/
