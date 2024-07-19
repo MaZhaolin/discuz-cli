@@ -35,11 +35,16 @@ composer install
 npm run build
 ```
 
-将会将插件打包为 plugin.zip ，打包后的插件可以直接导入到 Discuz 中。
+将会将插件打包到 `dist` 文件夹 ，打包后的插件可以直接导入到 Discuz 中。
+打包目录可在 `build/config.json` 中配置
 
 ## 模板仓库
 
 dz-cli 使用 [discuz-plugin-template](https://github.com/MaZhaolin/discuz-plugin-template) 作为项目模板。你可以根据需要修改该模板仓库来定制生成的项目结构。
+目前支持的模板:
+
+-   simple 基础模板
+-   react-admin 支持 react 开发打包后台前台页面
 
 ## 贡献
 
