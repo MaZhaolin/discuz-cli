@@ -22,9 +22,20 @@ npm install -g dz-cli
 
 ```bash
 dz-cli create my-plugin
+cd my-plugin
+npm install
+composer install
 ```
 
 该命令将会在当前目录下创建一个名为 `my-plugin` 的文件夹，并在其中生成插件的基本结构。
+
+### 打包
+
+```
+npm run build
+```
+
+将会将插件打包为 plugin.zip ，打包后的插件可以直接导入到 Discuz 中。
 
 ## 模板仓库
 
