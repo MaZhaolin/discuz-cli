@@ -13,7 +13,7 @@
 你可以通过 npm 全局安装 dz-cli：
 
 ```bash
-npm install -g dz-cli
+npm install -g discuz-cli
 ```
 
 ## 使用方法
@@ -21,7 +21,7 @@ npm install -g dz-cli
 安装完成后，你可以使用以下命令创建一个新的 Discuz 插件项目：
 
 ```bash
-dz-cli create my-plugin
+discuz-cli create my-plugin
 cd my-plugin
 npm install
 composer install

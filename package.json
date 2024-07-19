@@ -1,5 +1,5 @@
 {
-  "name": "dz-cli",
+  "name": "discuz-cli",
   "version": "1.0.0",
   "author": "MaZhaoLin",
   "dependencies": {
@@ -14,7 +14,7 @@
   },
   "type": "module",
   "bin": {
-    "dz-cli": "bin/cli.mjs"
+    "discuz-cli": "bin/cli.mjs"
   },
   "license": "ISC"
 }
