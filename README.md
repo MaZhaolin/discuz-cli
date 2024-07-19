@@ -1,20 +1,39 @@
-# 简介
-这是一个带有es、nodemer、prettier和dotenv模块的最小TypeScript starter
-# 开始
-- 单击 **运行** 按钮启动程序。
+# dz-cli
 
-   ![图片](https://lf-cdn.marscode.com.cn/obj/eden-cn/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/prod/04edcf103c3ed19965da6966212709d6078e241f/images/native_typescript/run.jpeg)
+**dz-cli** 是一个用于创建 Discuz 插件的脚手架工具。通过该工具，你可以快速生成 Discuz 插件的基础结构，从而专注于插件的具体功能开发。
 
-- 转到终端面板查看输出。
+## 特性
 
-   ![图片](https://lf-cdn.marscode.com.cn/obj/eden-cn/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/prod/04edcf103c3ed19965da6966212709d6078e241f/images/native_typescript/terminal.jpeg)
+-   快速生成 Discuz 插件项目结构
+-   简化插件开发流程
+-   提供标准化的项目模板
 
-默认情况下，MarsCode为您提供默认运行配置，你可以修改
-**. vscode/launch.json。**参考 [Visual Studio Code的文档](https://code.visualstudio.com/docs/editor/debugging) 有关如何配置launch. json。
-# 了解更多
-要了解有关Node. js的更多信息，请参阅以下资源：
-[introduction-to-Typescript](https://www.typescriptlang.org/) -了解Typescript功能。
-# 帮助
-如果你需要帮助，你可以查看[文档](https://docs.marscode.cn/)，或向我们提供[反馈](https://juejin.cn/pin/club/7359094304150650889?utm_source=doc&utm_medium=marscode)。
+## 安装
 
+你可以通过 npm 全局安装 dz-cli：
 
+```bash
+npm install -g dz-cli
+```
+
+## 使用方法
+
+安装完成后，你可以使用以下命令创建一个新的 Discuz 插件项目：
+
+```bash
+dz-cli create my-plugin
+```
+
+该命令将会在当前目录下创建一个名为 `my-plugin` 的文件夹，并在其中生成插件的基本结构。
+
+## 模板仓库
+
+dz-cli 使用 [discuz-plugin-template](https://github.com/MaZhaolin/discuz-plugin-template) 作为项目模板。你可以根据需要修改该模板仓库来定制生成的项目结构。
+
+## 贡献
+
+欢迎提交 issue 和 pull request 来帮助我们改进该项目。如果你有任何问题或建议，请在 GitHub 仓库中提出。
+
+## 许可证
+
+该项目遵循 MIT 许可证。
